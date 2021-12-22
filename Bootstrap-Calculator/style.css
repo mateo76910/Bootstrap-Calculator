@@ -1,0 +1,40 @@
+html,body{
+    min-width: 576px;
+}
+#zaslon{
+    font-family: "VT323", monospace;
+    text-shadow: 0 0 10px #1182e6;
+    font-size: 40px;
+}
+.btn.focus, .btn:focus {
+    outline: 0!important;
+    box-shadow: none!important;
+}
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active{
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+}
+
+.btn-dark:hover, .btn-dark:focus, .btn-dark:active, .btn-dark.active{
+    background-color: #343a40 !important;
+    border-color: #343a40 !important;
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active{
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+button{
+    height:100%;
+    width:100%;
+    margin: 0!important;
+    padding: 0!important;
+    font-size:2.4rem!important;
+    font-weight:300!important;
+    line-height:0.8!important;
+
+}
+.col, .col-6, .col-3{
+    padding: 0!important;
+    margin:0 !important;
+}
